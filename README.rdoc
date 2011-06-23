@@ -1,0 +1,12 @@
+// For quality test
+obtained_output = {:ceo => "Larry Page", :email => "larrypage@hotmail.com"}
+expected_output = { :ceo => "Larry Page", :email => "larrypage@hotmail.com"}
+string_comparision.quality_test(expected_output, obtained_output)   // should == 100 %
+
+// For string distance calculation
+  expected = "David Joker"
+  other = "David Poker"
+ string_comparision.calc_distance(expected,other)
+
+ // For Numeric distance calculation
+ string_comparision.calc_distance_for_number(expected, other)
